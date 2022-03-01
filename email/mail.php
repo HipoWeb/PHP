@@ -26,7 +26,7 @@ function enviarEmail(){
             $mail->Host = 'smtp.office365.com';                   // Specify main and backup SMTP servers
             $mail->SMTPAuth = true;                               // Enable SMTP authentication
             $mail->Username = 'topla24@hotmail.com';                 // SMTP username
-            $mail->Password = 'vgnmslqgmzqnneck';                           // SMTP password
+            $mail->Password = '';                           // SMTP password
             $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 587;                                    // TCP port to connect to
 
